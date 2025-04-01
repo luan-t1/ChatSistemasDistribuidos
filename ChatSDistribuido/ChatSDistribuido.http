@@ -1,0 +1,6 @@
+@ChatSDistribuido_HostAddress = http://localhost:5157
+
+GET {{ChatSDistribuido_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
