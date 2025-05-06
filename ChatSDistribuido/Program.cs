@@ -9,7 +9,7 @@ builder.Services.AddCors(options =>
     {
         policy.WithOrigins(
                 "http://localhost:3000",
-                "https://luan-t1-github-io.vercel.app")
+                "https://sistemas-distribuidos-frontend.vercel.app")
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials();
